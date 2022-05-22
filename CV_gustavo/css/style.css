@@ -1,0 +1,220 @@
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body{
+    background-color:rgb(11, 31, 33);
+    color:white;
+    width:1024px;
+    margin:50px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+
+button{
+    background-color: darkgray;
+    color: black;
+    padding: 1px 3px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 10%;
+    text-align: center;
+    border-radius: 20;
+    
+
+}
+
+button:hover{
+  color: white;
+  background-color: blueviolet;
+}
+
+button:active{
+  color: white;
+  background-color: rgb(165, 130, 197);
+}
+
+.enlace:hover{
+  color: white;
+  background-color: black;
+  
+}
+
+.enlace{
+    color: #a09e9e;    
+}
+
+.enlace:visited{
+  color: cornflowerblue;
+}
+
+.foto{ 
+
+    display: flex;
+    justify-content: center;
+    
+    width:  5 px;
+    height:  20rem;
+    border:10px solid blueviolet;
+    
+    background-color:rgb(0, 113, 128)bde;
+    padding: 10px 10px;
+    margin-left: 375px;
+    margin-right: 375px;
+
+    box-shadow: 0px 0px 80px blueviolet;
+                
+}
+
+    h1,h2,h3 {
+    text-align: center;
+    }
+
+    h1{
+      text-shadow: 10px 10px 5px whitesmoke;
+    }
+
+    p{
+    text-align: justify;
+    } 
+  
+  
+
+  .estilo1-body {
+    width: 1024px;
+    margin: 50px auto;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif, ;
+    color: antiquewhite;
+    background-color: #010a12; 
+}
+
+.estilo2-body {
+    width: 1024px;
+    margin: 50px auto;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif, ;
+    color: antiquewhite;
+    background-color: #3a0202; 
+}
+
+.estilo3-body {
+    width: 1024px;
+    margin: 50px auto;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif, ;
+    color: antiquewhite;
+    background-color: #1b3d08; 
+}
+
+
+
+body {
+   padding:50px;
+   font-family:arial;
+ }
+ h1 {
+   text-align: center;
+ }
+ 
+ /* Acordeon styles */
+ .tab {
+   position: relative;
+   margin-bottom: 1px;
+   width: 100%;
+   overflow: hidden;
+ }
+ .tab input {
+   position: absolute;
+   opacity: 0;
+   z-index: -1;
+ }
+ .tab label {
+   position: relative;
+   display: block;
+   padding: 0 0 0 1em;
+   background: #5a3cd3;
+   font-weight: bold;
+   line-height: 3;
+   cursor: pointer;
+   color:#fff;
+ }
+ 
+ .tab-content {
+   max-height: 0;
+   overflow: hidden;
+  color:white;
+   -webkit-transition: max-height .35s;
+   -o-transition: max-height .35s;
+   transition: max-height .35s;
+   border-radius: 5px;
+   /*border: 1px solid #ccc;*/  
+ }
+ .blue .tab-content {
+   background: #3498db;
+ }
+ .tab-content p {
+   margin: 1em;
+ }
+ /* :checked */
+ .tab input:checked ~ .tab-content {
+   max-height: 200vh;
+ }
+ /* Icon */
+ .tab label::after {
+   position: absolute;
+   right: 0;
+   top: 0;
+   display: block;
+   width: 3em;
+   height: 3em;
+   line-height: 3;
+   text-align: center;
+   -webkit-transition: all .35s;
+   -o-transition: all .35s;
+   transition: all .35s;
+ }
+ .tab input[type=checkbox] + label::after {
+   content: "+";
+ }
+ .tab input[type=radio] + label::after {
+   content: "\25BC";
+ }
+ .tab input[type=checkbox]:checked + label::after {
+   transform: rotate(315deg);
+ }
+ .tab input[type=radio]:checked + label::after {
+   transform: rotateX(180deg);
+ }
+ 
+ .image_accor{
+   float:left;
+   width: 15%;
+   margin-left:50px;
+   margin-top:5%;
+ }
+ .text_accor{
+   float:right;
+   width: 80%;
+   margin-top:20px;
+ }
+ 
+ .text_estadis_of{
+     padding: 15px;
+     border-radius: 5px;
+     border: 2px solid #35bbd5;
+     margin-left: 10px;
+     width: 90%;
+  
+ }
+ .container_img_quien_sen{
+  width:15%;
+  float:left;
+  text-align: center;
+  margin:20px;
+   
+ }
